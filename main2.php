@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
+
 <head>
     <title>Home page</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
@@ -18,7 +19,7 @@
 
         }
 
-        elemnt.style {}
+        /* elemnt.style {} */
 
         .auto-style1 {
             font-size: 40px;
@@ -588,22 +589,27 @@
             justify-content: center;
             flex-direction: column;
             overflow: hidden;
-            height: 80px;
-            width: 520px;
+            width: 500px;
             opacity: 0;
             transform: translateY(30px);
             transition-delay: .3s;
             transition: all .3s ease;
+            background: rgba(0, 0, 0, 0.30);
+        }
+
+        .card1>.row>.icon {
+            height: 50px;
         }
 
         .description p {
-            color: #b0b0ba;
+            color: #F5FFFA;
             padding-top: 5px;
+            padding-bottom: 8px;
         }
 
         .description h4 {
             text-transform: uppercase;
-            color: white;
+            color: #FFEFD5;
             font-size: 26px;
         }
 
@@ -621,27 +627,27 @@
         }
 
         .card1[for="c1"] {
-            background-image: url('images/f1.jpg');
+            background-image: url('images/Government Elections.jpg');
         }
 
         .card1[for="c2"] {
-            background-image: url('images/f2.jpg');
+            background-image: url('images/Academic Institutions.webp');
         }
 
         .card1[for="c3"] {
-            background-image: url('images/f3.jpg');
+            background-image: url('images/Non-Profit Organizations.png');
         }
 
         .card1[for="c4"] {
-            background-image: url('images/f4.jpg');
+            background-image: url('images/Corporate Governance.jpg');
         }
 
         .card1[for="c5"] {
-            background-image: url('images/f1.jpg');
+            background-image: url('images/Trade Unions.webp');
         }
 
         .card1[for="c6"] {
-            background-image: url('images/f2.jpg');
+            background-image: url('images/Market Research.webp');
         }
 
 
@@ -769,8 +775,9 @@
                     <div class="row">
                         <div class="icon">1</div>
                         <div class="description">
-                            <h4>Association</h4>
-                            <p></p>
+                            <h4>Government Elections</h4>
+                            <p>"Improves access, transparency, efficiency, and participation in government elections."
+                            </p>
                         </div>
                     </div>
                 </label>
@@ -780,8 +787,9 @@
                         <div class="row">
                             <div class="icon">2</div>
                             <div class="description">
-                                <h4>Association</h4>
-                                <p></p>
+                                <h4>Academic Institutions</h4>
+                                <p>"Modernizes voting, increases accessibility, enhances efficiency in academic
+                                    settings."</p>
                             </div>
                         </div>
                     </label>
@@ -790,8 +798,9 @@
                         <div class="row">
                             <div class="icon">3</div>
                             <div class="description">
-                                <h4>Education</h4>
-
+                                <h4>Non-Profit Organizations</h4>
+                                <p>"Enhances participation, transparency, and accountability in non-profit
+                                    organizations' decision-making processes."</p>
                             </div>
                         </div>
                     </label>
@@ -800,9 +809,9 @@
                         <div class="row">
                             <div class="icon">4</div>
                             <div class="description">
-                                <h4>New technologies</h4>
-                                <p>Space engineering becomes
-                                    more and more advanced</p>
+                                <h4>Corporate Governance</h4>
+                                <p>"Enhances transparency, efficiency, and shareholder engagement in corporate
+                                    governance."</p>
                             </div>
                         </div>
                     </label>
@@ -811,9 +820,9 @@
                         <div class="row">
                             <div class="icon">5</div>
                             <div class="description">
-                                <h4>New technologies</h4>
-                                <p>Space engineering becomes
-                                    more and more advanced</p>
+                                <h4>Trade Unions</h4>
+                                <p>"Facilitates democratic representation, participation, and decision-making processes
+                                    in unions."</p>
                             </div>
                         </div>
                     </label>
@@ -822,9 +831,8 @@
                         <div class="row">
                             <div class="icon">6</div>
                             <div class="description">
-                                <h4>New technologies</h4>
-                                <p>Space engineering becomes
-                                    more and more advanced</p>
+                                <h4>Market Research</h4>
+                                <p>"Streamlines data collection, enhances response rates, and optimizes surveys."</p>
                             </div>
                         </div>
                     </label>
@@ -936,7 +944,6 @@
         </table>
 
 
-
         <footer class="footer">
             <div class="container">
                 <div class="row">
@@ -986,8 +993,6 @@
                 </div>
             </div>
         </footer>
-
-
 
 
 </body>
