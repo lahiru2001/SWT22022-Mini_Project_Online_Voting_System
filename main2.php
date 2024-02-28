@@ -718,7 +718,7 @@
                 <h1>Convenient </h1>
             </div>
             <div class="description">
-                <p>Vote from anywhere, anytime using any device with internet access.</p>
+                Vote from anywhere, anytime using any device with internet access.
             </div>
         </div>
         <div class="card">
