@@ -3,6 +3,7 @@
 
 <head>
     <title>Home page</title>
+    <link rel="stylesheet"href="assets/css/aboutus.css" type="text/css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/js/all.min.js">
     <link rel="stylesheet" type="text/css"
@@ -942,6 +943,36 @@
                 <td class="auto-style2"> <img src="images/next2.png" </td style="height: 550px; width: 800px"></td>
             </tr>
         </table>
+
+              <!-- About us -->
+        <h1 class="heading">
+            <span>A</span>
+            <span>B</span>
+            <span>O</span>
+            <span>U</span>
+            <span>T</span>
+            <span>U</span>
+            <span>S</span>
+        </h1>
+        <section class="hero">
+            <div class="containers">
+                <div class="hero-content">
+                    <h2>Welcome To Our Website</h2>
+                    <p class="about">Welcome to e Voting System where democracy meets innovation.
+                    Our platform revolutionizes the voting experience by offering a secure,
+                    user-friendly, and accessible way to cast ballots from any device. 
+                    With cutting-edge technology and a commitment to transparency,e Voting System enures the integrity of every vote,
+                    empowering voters, candidates, and election administrators alike to participate confidently in the democratic process</p>
+                    <button class="cta-button">Learn More</button>
+                </div>
+            <div class="hero-image">
+                <img class="abouus"src="images/ab.png" alt="about us image">
+            </div>
+            </div>  
+        </sectioon>
+
+
+    <!-- footer -->
 
 
         <footer class="footer">
