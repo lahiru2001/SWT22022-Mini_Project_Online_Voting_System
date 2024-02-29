@@ -683,7 +683,7 @@
                         <a href="#"><b>Home</b></a>
                         <a href="#"><b>About</b></a>
                         <a href="#"><b>Services</b></a>
-                        <a href="#"><b>Contact</b></a>
+                        <a href="ContactUs.php"><b>Contact</b></a>
                     </div>
                     <div class="head1">
                         <h2>Welcome to Our Online Voting System </h2>
