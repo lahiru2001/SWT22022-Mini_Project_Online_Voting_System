@@ -301,7 +301,7 @@ header("location:index.php?page=home");
         <a href="main2.php"><b>Home</b></a>
         <a href="#"><b>About</b></a>
         <a href="#"><b>Services</b></a>
-        <a href="#"><b>Contact</b></a>
+        <a href="ContactUs.php"><b>Contact</b></a>
     </div>    
 
 		<div class="container">
