@@ -680,9 +680,9 @@
                 <td class="auto-style2"> <img src="images/show.png" <td style="height: 550px; width: 800px"></td>
                 <td class="auto-style1">
                     <div class="navbar">
-                        <a href="#"><b>Home</b></a>
-                        <a href="#"><b>About</b></a>
-                        <a href="#"><b>Services</b></a>
+                        <a href="main2.php"><b>Home</b></a>
+                        <a href="#section1"><b>About</b></a>
+                        <a href="#section2"><b>Services</b></a>
                         <a href="ContactUs.php"><b>Contact</b></a>
                     </div>
                     <div class="head1">
@@ -697,6 +697,7 @@
         </table>
     </div>
 
+    <section id="section2">
     <h1 class="heading">
         <span>S</span>
         <span>E</span>
@@ -745,7 +746,7 @@
             </div>
         </div>
     </center>
-
+    </section>
 
     <table style="padding:10px">
         <tr>
@@ -944,6 +945,7 @@
             </tr>
         </table>
 
+        <section id="section1">
               <!-- About us -->
         <h1 class="heading">
             <span>A</span>
@@ -970,6 +972,7 @@
             </div>
             </div>  
         </sectioon>
+    </section>
 
 
     <!-- footer -->
@@ -981,10 +984,10 @@
                     <div class="footer-col">
                         <h4>company</h4>
                         <ul>
-                            <li><a href="#">Home</a></li>
-                            <li><a href="#">About</a></li>
-                            <li><a href="#">Services</a></li>
-                            <li><a href="#">Contact</a></li>
+                            <li><a href="main2.php">Home</a></li>
+                            <li><a href="#section1">About</a></li>
+                            <li><a href="#section2">Services</a></li>
+                            <li><a href="ContactUs.php">Contact</a></li>
                         </ul>
                     </div>
                     <div class="footer-col">

@@ -298,9 +298,9 @@ header("location:index.php?page=home");
 		<img class="wave" src="images/background1234.png">
 	
 	<div class="navbar">
-        <a href="main2.php"><b>Home</b></a>
-        <a href="#"><b>About</b></a>
-        <a href="#"><b>Services</b></a>
+		<a href="main2.php"><b>Home</b></a>
+        <a href="#section1"><b>About</b></a>
+        <a href="#section2"><b>Services</b></a>
         <a href="ContactUs.php"><b>Contact</b></a>
     </div>    
 
