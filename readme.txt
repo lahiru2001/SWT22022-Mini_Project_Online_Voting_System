@@ -1,5 +1,4 @@
 1. Introduction:
-
     Our Online Voting System is a web-based application designed to facilitate secure and efficient voting processes.
     It allows users to create accounts, participate in various elections, and view election results in real-time.
 
@@ -10,7 +9,6 @@
 
 
 3. Installation:
-
 Before proceeding with the installation, ensure that you have PHP, MySQL, and a web server (e.g., Apache) installed on your system.
 
     1) Clone the repository from GitHub using fllowing link:
